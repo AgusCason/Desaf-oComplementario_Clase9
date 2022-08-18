@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="AcasDesigns">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Proyecto JS - Usuarios</title>
+  <script defer src="funciones2.js"></script>
+
+</head>
+<body class="body-usuarios">
+    <header></header>
+    <section>
+        <div class="container-fluid usuarios">
+              <div class="navbar">
+                <nav class="navbar navbar-expand">
+                    <div class="container-fluid container-fluid-navbar">
+                        <div class="container-navbar-izq">
+                            <a class="navbar-brand" href="index.html"><img src="img/logotipo.png" alt="logo"></a>
+                        </div>
+                        <div class="container-navbar-der">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>                           
+                        </div>
+                    </div>   
+                </nav>          
+              </div>
+              <div class="usuarios1">
+                <h4>¿Quién está viendo ahora?</h4>
+                <div class="contenedor-usuarios">
+                    <div class="usuarios-contenedor">
+                        <div class="usuario usuario-1 usuario1" id="usuario-1">
+                            <a href="usuario1.html"><img src="img/usuarios/3.png" alt="usuario-1"></a>
+                            <a href="usuario1.html" id="usuario1"><p>usuario1</p></a>
+                        </div>
+                        <div class="usuario usuario-2" id="usuario-2">
+                            <a href="usuario1.html"><img src="img/usuarios/2.png" alt="usuario-2"></a>
+                            <a href="usuario1.html" id="usuario2"><p>usuario2</p></a>
+                        </div>
+                        <div class="usuario usuario-3" id="usuario-3">
+                            <a href="usuario1.html"><img src="img/usuarios/1.png" alt="usuario-3"></a>
+                            <a href="usuario1.html" id="usuario3"><p>usuario3</p></a>
+                        </div>
+                        <div class="usuario usuario-4" id="usuario-4">
+                            <a href="agregarusuario.html"><img src="img/usuarios/4.png" alt="usuario-4"></a>
+                            <a href="agregarusuario.html"><p>Agregar Usuarios</p></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="adminperfiles">
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn1 btn-continuar" onclick="agregarUsuario1();"><a href="index.html"><p>Agregar Usuario 1</p></a></button>                                
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn2 btn-cancelar" onclick="agregarUsuario2();"><a href=""><p>Agregar Usuario 2</p></a></button>   
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn2 btn-continuar" onclick="agregarUsuario3();"><a href="index.html"><p>Agregar Usuario 3</p></a></button>                                            
+             </div>
+             <div class="adminperfiles">
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn1 btn-continuar" onclick="borrarUsuario1();"><a href="index.html"><p>Borrar</p></a></button>                                
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn2 btn-cancelar" onclick="borrarUsuario2();"><a href=""><p>Borrar</p></a></button>   
+                <button type="button" class="btn btn-outline-secondary btn-agregarusuarios btn2 btn-continuar" onclick="borrarUsuario3();"><a href="index.html"><p>Borrar</p></a></button>                                            
+             </div>              
+        </div>
+    </section>
+</body>
+</html>
+
+
